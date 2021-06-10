@@ -18,7 +18,7 @@ public class CreateServerPanel extends JPanel {
 	
 	public CreateServerPanel(CreateServerControl csc) {
 		
-		JPanel createPanel = new JPanel(new GridLayout(2, 2, 5, 5));
+	    JPanel createPanel = new JPanel(new GridLayout(2, 2, 5, 5));
 	    JLabel portLabel = new JLabel("Port No: ", JLabel.RIGHT);
 	    portField = new JTextField(15);
 	    JLabel timeoutLabel = new JLabel("Timeout: ", JLabel.RIGHT);
